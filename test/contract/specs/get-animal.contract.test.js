@@ -48,6 +48,7 @@ describe('Animal Service', () => {
             expect(responseBody.gender).to.be.equal('Male');
             expect(responseBody.vaccinated).to.be.true;
 
+
             await provider.verify()
         });
     });
